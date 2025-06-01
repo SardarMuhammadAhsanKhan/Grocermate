@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh '''
                 sudo rm -rf /var/www/html/*
-                sudo cp thankyou.html /var/www/html/index.html
+                sudo cp index.html /var/www/html/index.html
                 '''
             }
         }
